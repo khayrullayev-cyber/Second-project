@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100vh;
+    background-color: #ccc;
+}
+
+.conteiner .content {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.conteiner .content .item {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
